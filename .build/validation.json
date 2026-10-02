@@ -1,0 +1,43 @@
+{
+  "structure": {
+    "sheets": 23,
+    "nonempty_cells": 2385,
+    "fonts": [
+      "Meiryo UI"
+    ],
+    "hyperlinks": 394,
+    "charts": 2,
+    "diagrams": 3,
+    "sources": 83,
+    "code_examples": 12,
+    "markdown_chars": 149476,
+    "xlsx_bytes": 404913,
+    "markdown_bytes": 220088,
+    "formula_cached_values": [
+      0.5,
+      0.6666666666666666,
+      0.05,
+      100,
+      0.01639344262295082,
+      200,
+      20
+    ],
+    "formula_validation": {
+      "method": "Local restricted formula evaluator and cached-value comparison; not Excel recalculation",
+      "calculated": [
+        0.5,
+        0.6666666666666666,
+        0.05,
+        100.0,
+        0.01639344262295082,
+        200,
+        20.0
+      ],
+      "boundary_cases": 9
+    },
+    "sha256": {
+      "AWS_JMeter_EAP81_Observability_Guide.xlsx": "4469802622048da5ecbb2c50e82a9d79efcf92f339827c8d34924ebf84d727b0",
+      "AWS_JMeter_EAP81_Observability_Guide.md": "68f9da43e0d3d259aa49cf8a34e437c72e297fe1084e09dc99471df8faca5a7f"
+    }
+  }
+}

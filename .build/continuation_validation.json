@@ -1,0 +1,152 @@
+{
+  "checked_at": "2026-10-02T14:35:20.558050+00:00",
+  "structural_validation": {
+    "structure": {
+      "sheets": 23,
+      "nonempty_cells": 2385,
+      "fonts": [
+        "Meiryo UI"
+      ],
+      "hyperlinks": 394,
+      "charts": 2,
+      "diagrams": 3,
+      "sources": 83,
+      "code_examples": 12,
+      "markdown_chars": 149476,
+      "xlsx_bytes": 404913,
+      "markdown_bytes": 220088,
+      "formula_cached_values": [
+        0.5,
+        0.6666666666666666,
+        0.05,
+        100,
+        0.01639344262295082,
+        200,
+        20
+      ],
+      "formula_validation": {
+        "method": "Local restricted formula evaluator and cached-value comparison; not Excel recalculation",
+        "calculated": [
+          0.5,
+          0.6666666666666666,
+          0.05,
+          100.0,
+          0.01639344262295082,
+          200,
+          20.0
+        ],
+        "boundary_cases": 9
+      },
+      "sha256": {
+        "AWS_JMeter_EAP81_Observability_Guide.xlsx": "4469802622048da5ecbb2c50e82a9d79efcf92f339827c8d34924ebf84d727b0",
+        "AWS_JMeter_EAP81_Observability_Guide.md": "68f9da43e0d3d259aa49cf8a34e437c72e297fe1084e09dc99471df8faca5a7f"
+      }
+    }
+  },
+  "layout_validation": {
+    "check": "Conservative font-metric estimate, not Excel rendering",
+    "checked_cells": 2378,
+    "overflow_estimates": [],
+    "previews": [
+      "C:\\Users\\taka_\\Codex\\JMeter_AWS_Service_Codex\\.build\\layout_preview_00_6.png",
+      "C:\\Users\\taka_\\Codex\\JMeter_AWS_Service_Codex\\.build\\layout_preview_05_6.png",
+      "C:\\Users\\taka_\\Codex\\JMeter_AWS_Service_Codex\\.build\\layout_preview_08_6.png",
+      "C:\\Users\\taka_\\Codex\\JMeter_AWS_Service_Codex\\.build\\layout_preview_09_6.png",
+      "C:\\Users\\taka_\\Codex\\JMeter_AWS_Service_Codex\\.build\\layout_preview_12_6.png",
+      "C:\\Users\\taka_\\Codex\\JMeter_AWS_Service_Codex\\.build\\layout_preview_22_6.png"
+    ]
+  },
+  "file_review": [
+    {
+      "file": "scripts\\build_guide.py",
+      "unchanged_from_baseline": true,
+      "sha256": "6785e3c9de14ac110dd0a4f1a5d1c2a6c998ac7ab400fb622966afd2dd712a58",
+      "diff_check": "passed (git diff --no-index --check)"
+    },
+    {
+      "file": "scripts\\guide_content.py",
+      "unchanged_from_baseline": true,
+      "sha256": "3ce76fe1ab3b2d8bf437c739340e11001adb29ea700c84068857513d1d4b3515",
+      "diff_check": "passed (git diff --no-index --check)"
+    },
+    {
+      "file": "scripts\\preview_guide.py",
+      "unchanged_from_baseline": true,
+      "sha256": "2daf41817dca810bc947784bae77294c7ad0a87cfe008e89dd95e63aeaa6c309",
+      "diff_check": "passed (git diff --no-index --check)"
+    },
+    {
+      "file": "scripts\\verify_guide.py",
+      "unchanged_from_baseline": true,
+      "sha256": "0def59a805d0bcf500d535c80606fb1b89c2dabe304337cba203c7399edf5281",
+      "diff_check": "passed (git diff --no-index --check)"
+    },
+    {
+      "file": "outputs\\AWS_JMeter_EAP81_Observability_Guide.md",
+      "unchanged_from_baseline": true,
+      "sha256": "68f9da43e0d3d259aa49cf8a34e437c72e297fe1084e09dc99471df8faca5a7f",
+      "diff_check": "passed (git diff --no-index --check)"
+    },
+    {
+      "file": "outputs\\AWS_JMeter_EAP81_Observability_Guide.xlsx",
+      "unchanged_from_baseline": true,
+      "sha256": "4469802622048da5ecbb2c50e82a9d79efcf92f339827c8d34924ebf84d727b0"
+    }
+  ],
+  "sources": {
+    "scope": "HTTP reachability of all 83 references, browser fallback for 8 Red Hat references, and selected content checks; not a new claim-by-claim review of the entire guide",
+    "direct_http_success": 75,
+    "direct_http_forbidden": [
+      "S46",
+      "S47",
+      "S48",
+      "S49",
+      "S50",
+      "S51",
+      "S52",
+      "S58"
+    ],
+    "browser_fallback_verified": [
+      "S46",
+      "S47",
+      "S48",
+      "S49",
+      "S50",
+      "S51",
+      "S52",
+      "S58"
+    ],
+    "selected_aws_content_checks": [
+      "S01",
+      "S07",
+      "S13",
+      "S19",
+      "S38"
+    ]
+  },
+  "native_excel": {
+    "command": "py -3 scripts\\verify_guide.py --excel",
+    "status": "failed",
+    "phase": "win32com.client.DispatchEx(Excel.Application)",
+    "hresult": -2146959355,
+    "error_code": "0x80080005",
+    "excel_recalculation_completed": false,
+    "excel_rendering_completed": false
+  },
+  "visual_review": {
+    "method": "Pillow font-metric previews, not native Excel rendering",
+    "reviewed_previews": [
+      "00",
+      "08",
+      "12",
+      "22"
+    ],
+    "reviewed_diagrams": [
+      "architecture",
+      "memory",
+      "trace"
+    ],
+    "findings": []
+  },
+  "aws_environment_testing": "not performed"
+}

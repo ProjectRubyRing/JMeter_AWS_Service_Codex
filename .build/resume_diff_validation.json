@@ -1,0 +1,37 @@
+[
+  {
+    "file": "scripts\\build_guide.py",
+    "unchanged_from_baseline": true,
+    "sha256": "6785e3c9de14ac110dd0a4f1a5d1c2a6c998ac7ab400fb622966afd2dd712a58",
+    "diff_check": "passed (git diff --no-index --check)"
+  },
+  {
+    "file": "scripts\\guide_content.py",
+    "unchanged_from_baseline": true,
+    "sha256": "3ce76fe1ab3b2d8bf437c739340e11001adb29ea700c84068857513d1d4b3515",
+    "diff_check": "passed (git diff --no-index --check)"
+  },
+  {
+    "file": "scripts\\preview_guide.py",
+    "unchanged_from_baseline": true,
+    "sha256": "2daf41817dca810bc947784bae77294c7ad0a87cfe008e89dd95e63aeaa6c309",
+    "diff_check": "passed (git diff --no-index --check)"
+  },
+  {
+    "file": "scripts\\verify_guide.py",
+    "unchanged_from_baseline": true,
+    "sha256": "0def59a805d0bcf500d535c80606fb1b89c2dabe304337cba203c7399edf5281",
+    "diff_check": "passed (git diff --no-index --check)"
+  },
+  {
+    "file": "outputs\\AWS_JMeter_EAP81_Observability_Guide.md",
+    "unchanged_from_baseline": true,
+    "sha256": "68f9da43e0d3d259aa49cf8a34e437c72e297fe1084e09dc99471df8faca5a7f",
+    "diff_check": "passed (git diff --no-index --check)"
+  },
+  {
+    "file": "outputs\\AWS_JMeter_EAP81_Observability_Guide.xlsx",
+    "unchanged_from_baseline": true,
+    "sha256": "4469802622048da5ecbb2c50e82a9d79efcf92f339827c8d34924ebf84d727b0"
+  }
+]

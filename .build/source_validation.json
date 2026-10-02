@@ -1,0 +1,571 @@
+{
+  "checked_at": "2026-10-02T14:30:21.246893+00:00",
+  "check": "HTTP reachability only; not a claim-by-claim content review",
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/AppSignals-MetricsCollected.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/AppSignals-MetricsCollected.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S02",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Application-Signals-Enable-ECSMain.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Application-Signals-Enable-ECSMain.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S03",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Application-Signals-ECS-Sidecar.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Application-Signals-ECS-Sidecar.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S04",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Application-Signals-supportmatrix.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Application-Signals-supportmatrix.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S05",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Container-Insights-enhanced-observability-metrics-ECS.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Container-Insights-enhanced-observability-metrics-ECS.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S06",
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cloudwatch-metrics.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cloudwatch-metrics.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S07",
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service_utilization.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service_utilization.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S08",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/deploy-container-insights-ECS-cluster.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/deploy-container-insights-ECS-cluster.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S09",
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cloudwatch-container-insights.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cloudwatch-container-insights.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S10",
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-cloudwatch-metrics.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-cloudwatch-metrics.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S11",
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S12",
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-request-tracing.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-request-tracing.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S13",
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-cloudwatch-logs.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-cloudwatch-logs.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S14",
+      "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-metrics-and-dimensions.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-metrics-and-dimensions.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S15",
+      "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-metrics.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-metrics.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S16",
+      "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-xray.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-xray.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S17",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-metrics.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-metrics.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S18",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.AuroraMonitoring.Metrics.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.AuroraMonitoring.Metrics.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S19",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Database-Insights.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Database-Insights.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S20",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Database-Insights-Database-Instance-Dashboard.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Database-Insights-Database-Instance-Dashboard.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S21",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S22",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S23",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.monitoring.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.monitoring.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S24",
+      "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/CacheMetrics.Redis.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/CacheMetrics.Redis.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S25",
+      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/programming-cloudwatch-metrics.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/programming-cloudwatch-metrics.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S26",
+      "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-metrics.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-metrics.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S27",
+      "url": "https://docs.aws.amazon.com/vpc/latest/userguide/metrics-dimensions-nat-gateway.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/vpc/latest/userguide/metrics-dimensions-nat-gateway.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S28",
+      "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-available-cloudwatch-metrics.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-available-cloudwatch-metrics.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S29",
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/monitoring-metrics-types.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/lambda/latest/dg/monitoring-metrics-types.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S30",
+      "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/metrics-dimensions.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/metrics-dimensions.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S31",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/metrics-dimensions.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/metrics-dimensions.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S32",
+      "url": "https://docs.aws.amazon.com/efs/latest/ug/efs-metrics.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/efs/latest/ug/efs-metrics.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S33",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S34",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S35",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_QuerySyntax-Stats.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_QuerySyntax-Stats.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S36",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Transaction-Search.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Transaction-Search.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S37",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Enable-TransactionSearch.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Enable-TransactionSearch.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S38",
+      "url": "https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-daemon-timeline.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-daemon-timeline.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S39",
+      "url": "https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-migration.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-migration.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S40",
+      "url": "https://github.com/open-telemetry/opentelemetry-java-instrumentation/blob/main/docs/supported-libraries.md",
+      "status": 200,
+      "final_url": "https://github.com/open-telemetry/opentelemetry-java-instrumentation/blob/main/docs/supported-libraries.md",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "id": "S41",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Agent-JMX-metrics.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Agent-JMX-metrics.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S42",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ContainerInsights-Prometheus-Setup-ECS.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ContainerInsights-Prometheus-Setup-ECS.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S43",
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/application-metrics-prometheus.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/application-metrics-prometheus.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S44",
+      "url": "https://prometheus.github.io/jmx_exporter/deployment/java-agent/",
+      "status": 200,
+      "final_url": "https://prometheus.github.io/jmx_exporter/deployment/java-agent/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "id": "S45",
+      "url": "https://access.redhat.com/articles/6961381",
+      "status": 200,
+      "final_url": "https://access.redhat.com/articles/6961381",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "id": "S46",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.1/html/release_notes_for_red_hat_jboss_enterprise_application_platform_8.1/supported-configurations-rn_assembly-release-notes",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S47",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.1/html/performance_tuning_for_red_hat_jboss_enterprise_application_platform/assembly-monitoring-performance_performance-tuning-guide",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S48",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.1/html/performance_tuning_for_red_hat_jboss_enterprise_application_platform/assembly-jvm-tuning_performance-tuning-guide",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S49",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.1/html/performance_tuning_for_red_hat_jboss_enterprise_application_platform/assembly-datasource-resource-adapter-tuning_performance-tuning-guide",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S50",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.1/html/configuration_guide/reference_material",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S51",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.1/html/configuration_guide/datasource_management",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S52",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.1/html/using_jboss_eap_xp_6.0/understand_microprofile",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S53",
+      "url": "https://docs.oracle.com/en/java/javase/21/docs/api/java.management/java/lang/management/MemoryUsage.html",
+      "status": 200,
+      "final_url": "https://docs.oracle.com/en/java/javase/21/docs/api/java.management/java/lang/management/MemoryUsage.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S54",
+      "url": "https://docs.oracle.com/en/java/javase/21/docs/api/java.management/java/lang/management/MemoryMXBean.html",
+      "status": 200,
+      "final_url": "https://docs.oracle.com/en/java/javase/21/docs/api/java.management/java/lang/management/MemoryMXBean.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S55",
+      "url": "https://docs.oracle.com/en/java/javase/21/docs/api/java.management/java/lang/management/ThreadMXBean.html",
+      "status": 200,
+      "final_url": "https://docs.oracle.com/en/java/javase/21/docs/api/java.management/java/lang/management/ThreadMXBean.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S56",
+      "url": "https://docs.oracle.com/en/java/javase/21/docs/specs/man/jcmd.html",
+      "status": 200,
+      "final_url": "https://docs.oracle.com/en/java/javase/21/docs/specs/man/jcmd.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S57",
+      "url": "https://docs.oracle.com/en/java/javase/21/vm/native-memory-tracking.html",
+      "status": 200,
+      "final_url": "https://docs.oracle.com/en/java/javase/21/vm/native-memory-tracking.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S58",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_build_of_openjdk/21/html/getting_started_with_red_hat_build_of_openjdk_21/openjdk-distribution-selection",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S59",
+      "url": "https://jmeter.apache.org/usermanual/glossary.html",
+      "status": 200,
+      "final_url": "https://jmeter.apache.org/usermanual/glossary.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S60",
+      "url": "https://jmeter.apache.org/usermanual/best-practices.html",
+      "status": 200,
+      "final_url": "https://jmeter.apache.org/usermanual/best-practices.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S61",
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-exec.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-exec.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S62",
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using_awslogs.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using_awslogs.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S63",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Embedded_Metric_Format.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Embedded_Metric_Format.html",
+      "content_type": "text/html"
+    },
+    {
+      "id": "S64",
+      "url": "https://aws.amazon.com/cloudwatch/pricing/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/cloudwatch/pricing/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S65",
+      "url": "https://aws.amazon.com/blogs/aws/new-aws-load-balancing-automatic-scaling-and-cloud-monitoring-services/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/blogs/aws/new-aws-load-balancing-automatic-scaling-and-cloud-monitoring-services/",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "id": "S66",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-cloudwatch-logs/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-cloudwatch-logs/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S67",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2017/04/aws-x-ray-now-generally-available/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2017/04/aws-x-ray-now-generally-available/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S68",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-fargate-a-technology-to-run-containers-without-managing-infrastructure/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-fargate-a-technology-to-run-containers-without-managing-infrastructure/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S69",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2017/12/amazon-cloudwatch-introduces-a-new-cloudwatch-agent-with-aws-systems-manager-integration-for-unified-metrics-and-logs-collection/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2017/12/amazon-cloudwatch-introduces-a-new-cloudwatch-agent-with-aws-systems-manager-integration-for-unified-metrics-and-logs-collection/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S70",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-cloudwatch-logs-insights-fast-interactive-log-analytics/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-cloudwatch-logs-insights-fast-interactive-log-analytics/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S71",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2019/08/container-monitoring-for-amazon-ecs-eks-and-kubernetes-is-now-available-in-amazon-cloudwatch/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2019/08/container-monitoring-for-amazon-ecs-eks-and-kubernetes-is-now-available-in-amazon-cloudwatch/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S72",
+      "url": "https://www.cncf.io/blog/2019/05/21/a-brief-history-of-opentelemetry-so-far/",
+      "status": 200,
+      "final_url": "https://www.cncf.io/blog/2019/05/21/a-brief-history-of-opentelemetry-so-far/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "id": "S73",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-cloudwatch-synthetics-generally-available/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-cloudwatch-synthetics-generally-available/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S74",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2020/10/announcing-aws-distro-for-opentelemetry-in-preview/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2020/10/announcing-aws-distro-for-opentelemetry-in-preview/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S75",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-managed-grafana-is-now-generally-available-with-many-new-features/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/blogs/aws/amazon-managed-grafana-is-now-generally-available-with-many-new-features/",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "id": "S76",
+      "url": "https://press.aboutamazon.com/2021/9/aws-announces-general-availability-of-amazon-managed-service-for-prometheus",
+      "status": 200,
+      "final_url": "https://press.aboutamazon.com/2021/9/aws-announces-general-availability-of-amazon-managed-service-for-prometheus",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "id": "S77",
+      "url": "https://aws.amazon.com/blogs/aws/cloudwatch-rum/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/blogs/aws/cloudwatch-rum/",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "id": "S78",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-cloudwatch-application-signals-application-monitoring/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-cloudwatch-application-signals-application-monitoring/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S79",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-cloudwatch-visibility-application-transactions/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-cloudwatch-visibility-application-transactions/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S80",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-cloudwatch-database-insights/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-cloudwatch-database-insights/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S81",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S82",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-logs/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-logs/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "S83",
+      "url": "https://www.cncf.io/announcements/2026/05/21/cloud-native-computing-foundation-announces-opentelemetrys-graduation-solidifying-status-as-the-de-facto-observability-standard/",
+      "status": 200,
+      "final_url": "https://www.cncf.io/announcements/2026/05/21/cloud-native-computing-foundation-announces-opentelemetrys-graduation-solidifying-status-as-the-de-facto-observability-standard/",
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ]
+}
